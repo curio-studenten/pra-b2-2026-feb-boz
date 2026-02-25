@@ -173,6 +173,7 @@ footer{
 }
 
 .hidden-on-lg{
+  
 }
 .hidden-on-sm{
   display: block;
@@ -198,11 +199,31 @@ footer{
     margin: 0 auto;
     width: 256px;
   }
+}
+.row {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
 
+}
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
   }
+
+
+
+.emphasize {
+  border-left: 5px solid #27AE60;      
+  box-shadow: 1px 0px 5px #27AE60;     
+  padding: 1em;                        
+}
+
+.emphasize h2 {
+  margin: 0;            
+  border-left: none;      
+  text-align: center;      
+}
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
