@@ -16,17 +16,46 @@
       </div>
     </div>
   </header>
-  <main>
+ <main>
     <div class="wrapper">
       <article>
         <h2>Winkelwagentje</h2>
         <div>
           <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <button>Dit is correct, verder naar betaling</button>
+         
+          <!-- TABEL TICKET 13 -->
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th></th>
+                <th>Aantal</th>
+                <th>Prijs</th>
+                <th>Subtotaal</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="images/merchandise/mok.JPG" alt="Mok" width="80"></td>
+                <td>Dagticket Volwassene</td>
+                <td><input type="number" value="2" min="1" class="quantity"></td>
+                <td>€ 24,95</td>
+                <td class="subtotal">€ 49,90</td>
+                <td><button class="remove-btn">×</button></td>
+              </tr>
+              <tr>
+                <td><img src="images/merchandise/mok.JPG" alt="Abonnement" width="80"></td>
+                <td>Abonnement 1 jaar</td>
+                <td><input type="number" value="1" min="1" class="quantity"></td>
+                <td>€ 99,00</td>
+                <td class="subtotal">€ 99,00</td>
+                <td><button class="remove-btn">×</button></td>
+              </tr>
+            </tbody>
+          </table>
+ 
+          <button onclick="window.location.href='payment.html'">Dit is correct, verder naar betaling</button>
         </div>
       </article>
     </div>

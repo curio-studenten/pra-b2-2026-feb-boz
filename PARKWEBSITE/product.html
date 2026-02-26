@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeveloperLand - Het meest leerzame prepark voor het hele gezin!</title>
-
-  <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DeveloperLand - Product: Mok</title>
+ 
+  <!-- Externe stylesheet (zelfde als op je andere pagina's) -->
+  <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
- <header>
+ 
+  <!-- Header met hero-achtergrond en logo -->
+  <header>
     <div class="header-content">
       <div class="wrapper">
         <img src="logo-big-v3.png" alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond." class="logo hidden-on-sm">
@@ -16,15 +19,54 @@
       </div>
     </div>
   </header>
+ 
   <main>
-    
+    <div class="wrapper">
+      <article>
+        <!-- Paginatitel -->
+        <h2>DeveloperLand Mok</h2>
+ 
+        <!-- 2-koloms sectie: links productafbeelding, rechts productinfo -->
+        <div class="side-by-side">
+          <!-- LINKERKOLOM: productfoto -->
+          <div>
+            <!-- Gebruik dezelfde merchandise-foto als in je winkelmand -->
+            <img src="images/merchandise/mok.JPG"
+                 alt="DeveloperLand mok met opdruk"
+                 style="max-width: 340px; width: 100%; height: auto; display: block;"/>
+          </div>
+ 
+          <!-- RECHTERKOLOM: productdetails -->
+          <div class="description" style="max-width: 520px;">
+            <!-- Korte intro -->
+            <p><strong>In het kort:</strong> Een mok met jouw eigen achtbaan‑ego!</p>
+            <p><strong>Prijs:</strong> €&nbsp;14,95</p>
+ 
+            <!-- Beschrijving -->
+            <p><strong>Over dit product:</strong><br/>
+              Een mok waarmee het nog leuker wordt om thee, DE of cappu te drinken.
+              De opdruk is van hoogwaardige kwaliteit en vaatwasmachine‑bestendig.
+              Maak er een perfect geschenk van en laat een tekstje in jouw Developer‑stijl toevoegen!
+            </p>
+ 
+ 
+           
+            <button type="button" onclick="alert('Toegevoegd aan je winkelmand: DeveloperLand Mok (€ 14,95)')">
+              Plaats in winkelmand (€&nbsp;14,95)
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
   </main>
+ 
   <footer>
     <div class="wrapper">
       <div class="copyright">
-        &copy; 2020 - 2021  DeveloperLand&nbsp;&nbsp;All Rights Reserved
+        &copy; 2020 - 2021&nbsp; DeveloperLand&nbsp;&nbsp;All Rights Reserved
       </div>
     </div>
   </footer>
+ 
 </body>
 </html>
